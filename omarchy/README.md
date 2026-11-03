@@ -42,3 +42,12 @@ Secrets and state: `~/.ssh`, `~/.aws`, `~/.claude*`, Sunshine credentials/state,
 ## Refreshing this repo from the machine
 
 `packages/*.txt` came from `pacman -Qeq` (split by `pacman -Qemq` for AUR), `code --list-extensions`, and `git rev-parse HEAD` in each plugin directory. Config files under `home/` are plain copies of the originals.
+
+## Updating the repo from this machine
+
+```bash
+./capture.sh          # copy tracked dotfiles, package lists and plugin pins into the repo
+./capture.sh --push   # same, then commit and push
+```
+
+It copies exactly the files listed in `dotfiles.txt` (add a path there to track a new file) and aborts if anything looks like a secret.
