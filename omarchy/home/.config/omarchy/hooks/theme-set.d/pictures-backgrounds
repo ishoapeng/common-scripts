@@ -1,0 +1,3 @@
+#!/bin/bash
+# Add ~/Pictures/wallpapers images to every theme's background picker
+"$HOME/.local/bin/pictures-bg-sync" "$1"

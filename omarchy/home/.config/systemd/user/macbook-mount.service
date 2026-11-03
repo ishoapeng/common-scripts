@@ -1,0 +1,14 @@
+[Unit]
+Description=Mount MacBook over Tailscale via sshfs
+After=network-online.target tailscaled.service
+
+[Service]
+Type=simple
+ExecStartPre=-/usr/bin/fusermount3 -uz %h/MacBook
+ExecStart=/usr/bin/sshfs mac:/Users/ishoapeng %h/MacBook -f -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3,follow_symlinks,BatchMode=yes
+ExecStop=/usr/bin/fusermount3 -uz %h/MacBook
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

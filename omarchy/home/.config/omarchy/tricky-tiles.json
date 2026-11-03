@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "duration": 360,
+  "bounce": 25,
+  "travel": 45,
+  "focus_fade": true,
+  "scope": "switching",
+  "workspace_axis": "horizontal",
+  "swipes": false,
+  "swipe_horizontal": "workspaces",
+  "swipe_vertical": "off",
+  "tracking": "follow",
+  "wrap": false,
+  "sensitivity": 100,
+  "power_saver": "off",
+  "fingers": "3",
+  "preview_windows": true
+}

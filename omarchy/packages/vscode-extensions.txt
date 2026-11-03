@@ -1,0 +1,4 @@
+anthropic.claude-code
+farigab.noctokai-theme
+shadesofbuntu.flexoki-light
+snyk-security.snyk-vulnerability-scanner

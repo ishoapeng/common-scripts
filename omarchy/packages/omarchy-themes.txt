@@ -1,0 +1,4 @@
+# <name> <git-url>   (installed via `omarchy theme install`)
+abyssal-cartographer https://github.com/leaflessbranch/omarchy-abyssal-cartographer-theme.git
+ash https://github.com/bjarneo/omarchy-ash-theme
+# alfa-palette is custom: shipped in home/.config/omarchy/themes/alfa-palette

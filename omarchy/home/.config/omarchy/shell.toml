@@ -1,0 +1,17 @@
+# User overrides for the theme's shell.toml (these keys win over the theme).
+# Delete this file to go back to the stock look.
+
+# Omarchy menu: match the shibumi panel look — thin soft border,
+# slightly translucent card, quiet highlight on the selected row.
+[menu]
+background-alpha          = 0.94
+border-width              = 1
+border-alpha              = 0.16
+selected-background-alpha = 0.10
+selected-border-alpha     = 0
+# The current theme dims the selected row's label; shibumi keeps it bright.
+# This is the current theme's foreground — change or remove it if you switch themes.
+selected-text             = "#e0e0e0"
+
+[font]
+base-size = 12

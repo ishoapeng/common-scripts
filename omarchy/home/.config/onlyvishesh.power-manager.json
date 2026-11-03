@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "enabled": false,
+  "batteryThreshold": 20,
+  "profiles": {
+    "ac": "performance",
+    "batteryHigh": "performance",
+    "batteryLow": "performance"
+  },
+  "brightness": {
+    "auto": false,
+    "ac": 80,
+    "batteryHigh": 50,
+    "batteryLow": 30
+  },
+  "idle": {
+    "ac": {
+      "sleepAfterMinutes": 30,
+      "afterSleep": "ignore",
+      "hibernateAfterMinutes": 60
+    },
+    "batteryHigh": {
+      "sleepAfterMinutes": 15,
+      "afterSleep": "ignore",
+      "hibernateAfterMinutes": 30
+    },
+    "batteryLow": {
+      "sleepAfterMinutes": 5,
+      "afterSleep": "ignore",
+      "hibernateAfterMinutes": 15
+    }
+  },
+  "lid": {
+    "ignoreLidClose": false,
+    "ac": {
+      "action": "suspend"
+    },
+    "batteryHigh": {
+      "action": "suspend"
+    },
+    "batteryLow": {
+      "action": "suspend"
+    }
+  },
+  "appearance": {
+    "showPercentage": false
+  },
+  "notifications": {
+    "profileChanges": true,
+    "thresholdCrossing": true,
+    "hibernationWarning": true
+  }
+}

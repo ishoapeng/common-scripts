@@ -1,0 +1,120 @@
+{
+  "bar": {
+    "centerAnchor": "omarchy.clock",
+    "layout": {
+      "center": [
+        {
+          "id": "omarchy.indicators"
+        },
+        {
+          "id": "njpatel.omapager"
+        },
+        {
+          "id": "omarchy.clock",
+          "format": "dddd h:mm AP",
+          "formatAlt": "d MMMM 'W'ww yyyy",
+          "verticalFormat": "HH\n—\nmm"
+        },
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "archer-nemo.screen-sharing"
+        },
+        {
+          "id": "omarchy.system-update"
+        }
+      ],
+      "left": [
+        {
+          "id": "evindor.keystroke"
+        },
+        {
+          "id": "tornikegomareli.spaces"
+        },
+        {
+          "id": "omarchy.active-window"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray",
+          "pinned": [],
+          "hidden": []
+        },
+        {
+          "id": "io.github.diegopluna.argus"
+        },
+        {
+          "id": "omarchy.dropbox"
+        },
+        {
+          "id": "jankeesvw.time-machine"
+        },
+        {
+          "id": "io.github.thisisgm.discord"
+        },
+        {
+          "id": "io.github.denonmaryland.tricky-tiles"
+        },
+        {
+          "id": "io.github.andresariveros.omabose"
+        },
+        {
+          "id": "crmne.hyprmoncfg"
+        },
+        {
+          "id": "io.github.denonmaryland.theme-studio"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "jkoestinger.vpn"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.tailscale"
+        },
+        {
+          "id": "ssupt.audio-control"
+        },
+        {
+          "id": "onlyvishesh.power-manager"
+        },
+        {
+          "id": "io.github.juancasanueva.plugin-manager",
+          "allowUnverifiedUpdates": true,
+          "allowUnverifiedInstalls": true,
+          "openAs": "overlay"
+        },
+        {
+          "id": "jankeesvw.notification-center"
+        }
+      ]
+    },
+    "position": "top",
+    "transparent": true
+  },
+  "idle": {
+    "lock": 300,
+    "screensaver": 150
+  },
+  "plugins": [],
+  "version": 1,
+  "disabledPlugins": [
+    "omarchy.audio",
+    "omarchy.menu",
+    "omarchy.idle",
+    "omarchy.notifications"
+  ],
+  "cloneSourceRestores": [
+    "ssupt.audio-control",
+    "evindor.keystroke"
+  ]
+}

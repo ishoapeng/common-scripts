@@ -1,0 +1,8 @@
+aws-session-manager-plugin
+azure-functions-core-tools-bin
+blesh-git
+hyprmoncfg-bin
+ngrok
+photocraft-bin
+powershell-bin
+vesktop-bin

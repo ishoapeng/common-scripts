@@ -1,0 +1,8 @@
+{ "workbench.colorTheme": "Noctokai",
+    "update.mode": "none",
+    "snyk.advanced.cliPath": "/home/ishoapeng/.local/share/snyk-ls/snyk-linux",
+    "snyk.securityAtInception.autoConfigureSnykMcpServer": true,
+    "snyk.securityAtInception.executionFrequency": "",
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.hideOnboarding": true
+}

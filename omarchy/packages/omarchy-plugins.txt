@@ -1,0 +1,18 @@
+# <plugin-id> <git-url> <pinned-commit>   (installed to ~/.config/omarchy/plugins/<plugin-id>)
+archer-nemo.screen-sharing https://github.com/Nirmal314/omarchy-screen-sharing-indicator.git 269a5b59b37c8b65b01e57b314b4f15c03966949
+crmne.hyprmoncfg https://github.com/crmne/omarchy-hyprmoncfg.git e2facf13d02d83f1b1d0295b2a771fca7bb19b5f
+evindor.keystroke https://github.com/evindor/keystroke.git 0c74f2dd7466f25faf2cda4a39697f237afbe774
+gotar.omarchy-themes https://github.com/gotar/omarchy-themes.git e443eea5e9d0860aee1f6b4bf4b5b868ea40a6fa
+io.github.andresariveros.omabose https://github.com/andresantonioriveros/omarchy-bose.git 47593b107d1a883d132033a76e1607b83c3bbf6f
+io.github.denonmaryland.theme-studio https://github.com/denonmaryland/omarchy-theme-studio a66f0ebdebc2eea57c82d67dfab8b8c76154abde
+io.github.denonmaryland.tricky-tiles https://github.com/denonmaryland/omarchy-tricky-tiles 9cac783d5ebeb969a92f80e1c3d77409927125b5
+io.github.diegopluna.argus https://github.com/diegopluna/omarchy-argus db4cf658b72ed917d695c4c308f52a81f69d1e8a
+io.github.juancasanueva.plugin-manager https://github.com/juancasanueva/omarchy-plugin-manager.git 5f393f30e47483f1a97edfa1582deb98c9190e46
+io.github.thisisgm.discord https://github.com/thisisgm/omarchy-discord.git 08e0bf89a96d0b5d923aa207d914a349ce4d5eaf
+jankeesvw.notification-center https://github.com/jankeesvw/omarchy-notification-center.git 64886e934478d9cf0d8c8b4cd319a79567431b8c
+jankeesvw.time-machine https://github.com/jankeesvw/omarchy-time-machine.git ae548fc18855b0f4a4d36e16c39878668bcb3c37
+jkoestinger.vpn https://github.com/jkoestinger/omarchy-vpn.git e0f2d979bf7f13f61af9c3759af5f5a0c18b137c
+njpatel.omapager https://github.com/omacom/omapager.git c389e73516828d18f26e8efec2127c0c3dc3cb97
+onlyvishesh.power-manager https://github.com/onlyVishesh/omarchy-power-manager.git 767f8f1c2a01e5f64d6a5c5cfee8c49ce9c162b3
+ssupt.audio-control https://github.com/ssupt/omarchy-audio-control.git c822e48fa3b0d8f3cc2f0bf96eace416f30f0764
+tornikegomareli.spaces https://github.com/tornikegomareli/omarchy-spaces.git 458852c88336722f61d8c67487bc03d4d3523893

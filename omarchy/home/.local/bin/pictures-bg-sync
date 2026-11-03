@@ -1,0 +1,21 @@
+#!/bin/bash
+# Link every image in ~/Pictures/wallpapers into the current theme's user backgrounds
+# folder so the Omarchy background picker (and `omarchy theme bg next`) show them.
+# Links are prefixed "pictures--" so only our own links are ever removed.
+
+THEME_NAME=${1:-$(cat "$HOME/.local/state/omarchy/current/theme.name" 2>/dev/null)}
+[[ -z $THEME_NAME ]] && exit 0
+
+SRC="$HOME/Pictures/wallpapers"
+DEST="$HOME/.config/omarchy/backgrounds/$THEME_NAME"
+mkdir -p "$DEST"
+
+# Drop old links (removed pictures, or links from an earlier run)
+find "$DEST" -maxdepth 1 -type l -name 'pictures--*' -delete
+
+[[ -d $SRC ]] || exit 0
+find "$SRC" -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \
+  -o -iname '*.gif' -o -iname '*.bmp' -o -iname '*.webp' \) -print0 |
+  while IFS= read -r -d '' img; do
+    ln -sf "$img" "$DEST/pictures--$(basename "$img")"
+  done
